@@ -1,0 +1,2 @@
+This the first txt file that I am writing here!
+These are the few changes I am doirng to this file so that the gitbash can detect it
