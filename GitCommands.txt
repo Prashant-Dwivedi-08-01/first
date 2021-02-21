@@ -1,0 +1,28 @@
+git config --global user.name "Username"
+git config --global user.email "Email"
+
+
+git status: status of present repo
+
+git init: Initialize the New Repo ( Creates the hidden .git file)
+
+git add FileName.extemsion : Adds the file for tracking or Staging
+git add --a : Add all the Files
+
+git commit -m " Message " : Commit the Changes
+git commit -a -m "messag" : Direct Commit Without Staging
+
+git diff: compares the present working directory with staged area
+git diff --staged : compared the stages area with previous commit
+
+
+git log --stat : Short Description Of Each and Every Commit
+git log: All the Commits
+git log --pretty = oneline : Gives every commit in one line with the commit message
+git log --pretty = short : Gives Author and Commit Messages
+
+rm -rf .git : Delete the Entire Repo
+git rm FileName.extension : Delete the File
+git rm --cached FileName.extension : Delete the File from Tracking Which is now inside the .gitignore
+git mv OrignialFileName.extension NewFileName.extension : Rename the file
+touch FuileName.extension : Create New File
