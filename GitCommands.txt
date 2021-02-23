@@ -20,6 +20,7 @@ git log --stat : Short Description Of Each and Every Commit
 git log: All the Commits
 git log --pretty = oneline : Gives every commit in one line with the commit message
 git log --pretty = short : Gives Author and Commit Messages
+git log --since=2.days/weeks/years : Gives the Commits of last 2 days , years , weeks ect respectively
 
 rm -rf .git : Delete the Entire Repo
 git rm FileName.extension : Delete the File
