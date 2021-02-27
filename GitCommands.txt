@@ -28,4 +28,5 @@ git rm --cached FileName.extension : Delete the File from Tracking Which is now 
 git mv OrignialFileName.extension NewFileName.extension : Rename the file
 touch FuileName.extension : Create New File
 
-git restore --staged Filename
+git restore --staged Filename : Removes the file from staginf area.
+git checkout -- Filename : Moves this file to previous commit state
