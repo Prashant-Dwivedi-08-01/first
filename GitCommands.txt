@@ -31,3 +31,12 @@ touch FuileName.extension : Create New File
 git restore --staged Filename : Removes the file from staginf area.
 git checkout -- Filename : Moves this file to previous commit state
 git checkout -f : Moves all the files to Previous Commit i.e it unmodifies the changes
+
+git remote : To know the remote branch
+git remote add origin "URL from GitHub": To add any remote repo from git hub. This URL is now known as origin
+$ git remote : ( Now remote repo is there and thus we get origin)
+origin
+$ git remote -v : (Gives which repo is to fetch and which is to push)
+origin  https://github.com/Prashant-Dwivedi-08-01/first.git (fetch)
+origin  https://github.com/Prashant-Dwivedi-08-01/first.git (push)
+$ git push -u origin master : Use to Push the Files to Remote repo on github. (Note: use -f if that does not work)
