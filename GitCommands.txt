@@ -27,3 +27,5 @@ git rm FileName.extension : Delete the File
 git rm --cached FileName.extension : Delete the File from Tracking Which is now inside the .gitignore
 git mv OrignialFileName.extension NewFileName.extension : Rename the file
 touch FuileName.extension : Create New File
+
+git restore --staged Filename
