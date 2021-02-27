@@ -48,4 +48,6 @@ git config --global alias.(New Short Form) original_command : Shortens the origi
 
 
 //Branching
-git checkout -b NewBranchName
+git checkout -b NewBranchName: Creates and Swithces to new Branch
+git checkout NewBranch : Switches to the NewBranch from the Existing Branch.
+//Whenevever the branch is changes we move to that branch's directory
