@@ -45,3 +45,7 @@ $ git push -u origin master : Use to Push the Files to Remote repo on github. (N
 
 git config --global alias.(New Short Form) original_command : Shortens the original command to smaller one
 	eg: git config --global alias.st status. So now we can use st instead status
+
+
+//Branching
+git checkout -b NewBranchName
