@@ -18,6 +18,7 @@ git diff --staged : compared the stages area with previous commit
 
 git log --stat : Short Description Of Each and Every Commit
 git log: All the Commits
+git log -p -1: last commit
 git log --pretty = oneline : Gives every commit in one line with the commit message
 git log --pretty = short : Gives Author and Commit Messages
 git log --since=2.days/weeks/years : Gives the Commits of last 2 days , years , weeks ect respectively
@@ -40,3 +41,6 @@ $ git remote -v : (Gives which repo is to fetch and which is to push)
 origin  https://github.com/Prashant-Dwivedi-08-01/first.git (fetch)
 origin  https://github.com/Prashant-Dwivedi-08-01/first.git (push)
 $ git push -u origin master : Use to Push the Files to Remote repo on github. (Note: use -f if that does not work)
+
+git config --global alias.(New Short Form) original_command : Shortens the original command to smaller one
+	eg: git config --global alias.st status. So now we can use st instead status
